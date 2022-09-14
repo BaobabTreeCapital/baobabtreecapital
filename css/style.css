@@ -1,0 +1,119 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+                
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+
+#coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-block: 20%;
+}
+
+#content {
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    /*
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);*/
+    background: linear-gradient(to right,  grey 0%, goldenrod 100%);
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+strong {
+    color: gold;
+}
+
+span {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#map {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+    z-index: -1;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+
+#telegram {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.social-btn {
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    padding: 5px;
+    width: 30%;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+i {
+
+    height: 100%;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+.fadeInSocial {
+    -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+
